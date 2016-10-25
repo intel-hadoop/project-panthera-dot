@@ -1,7 +1,5 @@
 # Document Oriented Table (DOT) on HBase #
 
-#### Project contact: [Jie Huang] (mailto:jie.huang@intel.com), [Raymond Liu] (mailto:raymond.liu@intel.com), [Jason Dai](mailto:jason.dai@intel.com)
-
 ["Project Panthera"](https://github.com/intel-hadoop/project-panthera) is our open source efforts to enable efficient support of standard SQL features on Hadoop. In Hadoop based data warehousing systems (e.g., Hive or [ASE](https://github.com/intel-hadoop/project-panthera-ase)), users store their data as tables in HDFS and explore the data using a high level query language; the queries are then automatically converted into a series of MapReduce jobs for query processing. By bringing SQL to the Hadoop ecosystem, these systems make MapReduce much more accessible to mainstream users. 
 
 On the other hand, high-update rate SQL query workloads cannot be directly supported in these systems. While HBase can be used to support such workloads, query processing on HBase can incur significant overheads as the it completely ignores the SQL relational model:
